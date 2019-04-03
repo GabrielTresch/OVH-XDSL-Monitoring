@@ -1,7 +1,7 @@
-# Arobase Communication - OVH xDSL Monitoring
+# OVH xDSL Monitoring
 
 ## Description
-Ce script permet de récupérer l'upload et le download d'un client grâce à l'API OVH et de les stocker dans une base de données automatiquement. Un fois que le script est relancé, on actualise les anciennes valeurs de la base de données avec les nouvelles. Si les valeurs qui vont être mises à jour sont 20% inférieure à la celles présentes dans la base, un mail sera envoyé au destinataire de votre choix.
+Ce script permet de récupérer l'upload et le download d'un client grâce à l'API OVH et de les stocker dans une base de données automatiquement. Un fois que le script est relancé, on actualise les anciennes valeurs de la base de données avec les nouvelles. Si les valeurs qui vont être mises à jour sont 20% inférieure à la celles présentes dans la base, un mail sera envoyé au destinataire de votre choix. Je l'ai réalisé pour l'agence web Arobase Communication.
 
 ## Installation
 Ce script fonctionne avec [composer](https://docs.ovh.com/fr/hosting/installation-de-composer-sur-les-hebergements-mutualises/), il vous suffit donc d'ajouter le code dont vous aurez besoin dans le fichier `composer.json`.
